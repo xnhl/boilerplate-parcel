@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="hello world">
+		<meta name="keywords" content="hello, world">
+		<meta name="robots" content="index,follow">
 		<title>hello world</title>
-		<link rel="stylesheet" href="styles.css">
-		<script type="module" src="index.js"></script>
+		<link rel="icon" href="favicon.ico">
+		<link rel="stylesheet" href="styles/styles.css">
+		<style>
+			body { padding: 0.5rem }
+		</style>
+		<!-- Other .css files could be included here or imported in styles/styles.css -->
+		<!-- <link rel="stylesheet" href="styles/variables.css"> -->
+		<!-- <link rel="stylesheet" href="styles/fonts.css"> -->
 	</head>
 	<body>
-		<p>hello world</p>
+		<p id="hello">hello world</p>
+		<script>
+			console.log("hello world (index.html)")
+		</script>
+		<script type="module" src="scripts/index.js"></script>
+		<!-- Other .js modules could be included here or imported in scripts/index.js -->
+		<!-- <script type="module" src="scripts/changeBackground.js"></script> -->
 	</body>
+	<noscript>This website requires JavaScript which must be enabled to continue.</noscript>
 </html>
