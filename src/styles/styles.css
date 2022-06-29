@@ -8,6 +8,7 @@
 
 /* Other CSS files can be imported instead of including in HTML head */
 @import 'fonts.css';
+@import 'hello.sass';
 @import 'variables.css';
 
 body {
@@ -29,10 +30,10 @@ body {
 	box-sizing: border-box;
 }
 
-#hello {
+/* #hello {
 	padding: 1rem;
 	cursor: pointer;
 	font-size: 2rem;
 	line-height: 2rem;
 	letter-spacing: 0.25rem;
-}
+} */
